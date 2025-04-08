@@ -64,28 +64,42 @@ a {
 /*tlačítka*/
 .tlacitka {
   font-family: "Montserrat", sans-serif;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
 }
-.obal-portfolio:hover {
+.obal-portfolio {
+  margin-bottom: 10px;
+}
+.portfolio {
+  display: inline-block;
+  padding: 15px 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.obal-fb-tw {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.fb,
+.twitter {
+  display: inline-block;
+
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.portfolio:hover {
   background-color: #e74c3c;
 }
 
-.obal-fb:hover {
-  background-color: #3b5998;
+.fb:hover {
+  background-color: #2d4373;
 }
 
-.obal-twitter:hover {
-  background-color: #1da1f2;
-}
-
-.obal-portfolio {
-  max-width: 100%;
-  padding: 20px;
-}
-
-.obal-fb,
-.obal-twitter {
-  display: inline-block;
-  max-width: 100%;
-  padding: 20px;
+.twitter:hover {
+  background-color: #1991da;
 }

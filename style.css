@@ -40,7 +40,6 @@ a {
 }
 
 /*foto pozadí hlavičky*/
-
 .foto {
   width: 100%;
   padding: 0;
@@ -59,21 +58,34 @@ a {
 .texty {
   font-family: "Source Sans 3", sans-serif;
   padding: 20px;
+  border-bottom: 1px solid #bdc3c7;
 }
 
 /*tlačítka*/
 .tlacitka {
   font-family: "Montserrat", sans-serif;
-  padding: 20px;
+  display: inline-block;
 }
-.portfolio:hover {
+.obal-portfolio:hover {
   background-color: #e74c3c;
 }
 
-.fb:hover {
+.obal-fb:hover {
   background-color: #3b5998;
 }
 
-.twitter:hover {
+.obal-twitter:hover {
   background-color: #1da1f2;
+}
+
+.obal-portfolio {
+  max-width: 100%;
+  padding: 20px;
+}
+
+.obal-fb,
+.obal-twitter {
+  display: inline-block;
+  max-width: 100%;
+  padding: 20px;
 }

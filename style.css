@@ -9,3 +9,71 @@
   tlacitko facebook   #3b5998
   tlacitko twitter    #1da1f2
 */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #bdc3c7;
+  color: #bdc3c7;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+}
+
+a {
+  text-decoration: none;
+  color: #bdc3c7;
+  text-transform: uppercase;
+}
+/*cela karta*/
+.cela-karta {
+  background-color: #31363b;
+  width: 250px;
+  max-width: 100%;
+
+  position: relative;
+  overflow: hidden;
+}
+
+/*foto pozadí hlavičky*/
+
+.foto {
+  width: 100%;
+  padding: 0;
+}
+
+/*logo*/
+.logo {
+  position: absolute;
+  background-color: #b92e81;
+  border-radius: 50%;
+  top: 140px;
+  left: 180px;
+}
+
+/*text - nadpis + odstavce*/
+.texty {
+  font-family: "Source Sans 3", sans-serif;
+  padding: 20px;
+}
+
+/*tlačítka*/
+.tlacitka {
+  font-family: "Montserrat", sans-serif;
+  padding: 20px;
+}
+.portfolio:hover {
+  background-color: #e74c3c;
+}
+
+.fb:hover {
+  background-color: #3b5998;
+}
+
+.twitter:hover {
+  background-color: #1da1f2;
+}

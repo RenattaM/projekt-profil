@@ -71,6 +71,11 @@ a {
   padding: 16px;
   font-weight: bold;
   text-align: center;
+  border-bottom: 1px solid #bdc3c7;
+}
+
+.fb {
+  border-right: 1px solid #bdc3c7;
 }
 
 .portfolio:hover {

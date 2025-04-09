@@ -34,7 +34,6 @@ a {
   background-color: #31363b;
   width: 250px;
   max-width: 100%;
-
   position: relative;
   overflow: hidden;
 }
@@ -50,8 +49,8 @@ a {
   position: absolute;
   background-color: #b92e81;
   border-radius: 50%;
-  top: 140px;
-  left: 180px;
+  top: 15vh;
+  left: 30vw;
 }
 
 /*text - nadpis + odstavce*/
@@ -76,6 +75,10 @@ a {
 
 .fb {
   border-right: 1px solid #bdc3c7;
+  padding: 16px;
+}
+.twitter {
+  padding: 16px;
 }
 
 .portfolio:hover {
@@ -85,9 +88,10 @@ a {
 .fb,
 .twitter {
   display: inline-block;
-  padding: 16px;
   font-weight: bold;
   text-align: center;
+  width: 50%;
+  box-sizing: border-box;
 }
 
 .fb:hover {
